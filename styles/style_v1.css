@@ -1,0 +1,226 @@
+.menu_container {
+	padding: 0px 100px;
+	background-color: rgb(1, 59, 131);
+	border-bottom: 2px solid rgb(2, 85, 192);
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu_inner {
+	padding: 15px 0;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.sveden img {
+	transform: rotate(180deg);
+	transition: all 300ms;
+	width: 15px;
+}
+
+.sveden:hover img {
+	transform: rotate(0deg);
+	transition: all 300ms;
+}
+
+.sub_menu {
+	opacity: 0;
+	margin-top: 25px;
+	position: absolute;
+	left: 100px;
+	list-style-type: none;
+	padding: 0;
+	transition: all 300ms;
+	background-color: rgb(0, 67, 168);
+	width: 550px;
+	z-index: -1;
+}
+
+.sveden:hover>.sub_menu {
+	opacity: 1;
+	transition: all 300ms;
+	transform: translate(0, -10px);
+	z-index: 99;
+}
+
+.sub_menu li {
+	min-width: 170px;
+	float: none;
+	display: list-item;
+	position: relative;
+	list-style-type: none;
+	border-bottom: 2px solid rgb(2, 85, 192);
+	padding: 2%;
+	font-size: 14px;
+}
+
+.sub_menu li:hover {
+	background-color: rgb(2, 85, 192);
+}
+
+.sub_menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.second_menu_container {
+	background-color: rgb(1, 59, 131);
+	padding: 0 100px;
+}
+
+.second_menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.second_menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.fuk_item {
+	border: 2px solid black;
+	border-radius: 5px;
+	transition: 0.5s;
+	height: 350px;
+}
+
+.finance_icon {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/fakultets/finance_hover.png);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.fuk_item p {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(1, 59, 131);
+	transition: 0.5s;
+}
+
+.fuk_item:hover {
+	background-color: rgb(1, 59, 131);
+	transition: 0.5s;
+}
+
+.fuk_item:hover .finance_icon {
+	background-image: url(../images/fakultets/finance_white.png);
+	transition: 0.5s;
+}
+
+.fuk_item:hover p {
+	transition: 0.5s;
+	color: white;
+}
+
+.fuk_container a {
+	text-decoration: none;
+}
+
+.law_icon {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/fakultets/law.png);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.fuk_item:hover .law_icon {
+	background-image: url(../images/fakultets/law_white.png);
+	transition: 0.5s;
+}
+
+.college_icon {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/fakultets/college.png);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.fuk_item:hover .college_icon {
+	background-image: url(../images/fakultets/college_white.png);
+	transition: 0.5s;
+}
+
+.second_icon {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/fakultets/second.png);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.fuk_item:hover .second_icon {
+	background-image: url(../images/fakultets/second_white.png);
+	transition: 0.5s;
+}
+
+.dop_icon {
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/fakultets/dop.png);
+	background-repeat: no-repeat;
+	background-size: 300px;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.fuk_item:hover .dop_icon {
+	background-image: url(../images/fakultets/dop_white.png);
+	transition: 0.5s;
+}
+
+.scroll_top {
+	position: fixed;
+	bottom: 50px;
+	right: 15px;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	border-radius: 50px;
+	width: 100px;
+	padding: 15px;
+	opacity: 1;
+	transition: all 200ms;
+}
+
+.hide {
+	opacity: 0;
+	transition: all 200ms;
+}
+
+.some_content {
+	height: 100vh;
+}
+
+@media (max-width: 480px) {
+	.scroll_top {
+		display: none;
+	}
+}

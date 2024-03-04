@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'Blogger Sans';
+	src: local('Blogger Sans Bold'), local('BloggerSans-Bold'), url('https://stavik.ru/wp-content/themes/stavik/fonts/Bloggersansbold.woff2') format('woff2'), url('https://stavik.ru/wp-content/themes/stavik/fonts/Bloggersansbold.woff') format('woff'), url('https://stavik.ru/wp-content/themes/stavik/fonts/Bloggersansbold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9rem;
+	color: #7A7A7A;
+	height: 100%;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+h1,
+h2,
+h3 {
+	color: #000;
+}
+
+a,
+a:hover {
+	color: #16898B;
+}
+
+.variants {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.variants a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.logotype_fonts {
+	font-family: 'Blogger Sans';
+	font-weight: 700;
+	font-style: normal;
+}
+
+.logotype_fonts span {
+	font-size: 1.2rem;
+}
+
+.top {
+	padding: 0px 100px !important;
+}
+
+.top a.bvi-link-widget,
+a.bvi-link-shortcode {
+	font-size: 0.6rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+.bvi-shortcode a,
+.bvi-shortcode a:hover {
+	font-size: 0.7rem;
+	text-decoration: none;
+}
+
+.bvi-widget .bvi-svg-eye,
+.bvi-shortcode .bvi-svg-eye {
+	font-size: 1.2em !important;
+}
+
+a.bvi-link-shortcode {
+	color: #ffffff !important;
+	background-color: #D61800 !important;
+}
+
+.top__name {
+	padding-top: 5px;
+	color: rgba(0, 60, 125, 1);
+	font-size: 2.5rem;
+	line-height: 25px;
+}
+
+.top .lang a {
+	padding-right: 0.5rem;
+}
+
+.top .services a,
+.top .services a:hover {
+	color: #000;
+	font-size: 0.85rem;
+	text-decoration: none;
+}
+
+.stik_logo {
+	width: 150px;
+}
+
+/* Стили кнопки приемной комиссии в хидере */
+
+.priem_header {
+	font-family: 'Blogger Sans';
+	border: 3px solid rgb(1, 59, 131);
+	text-decoration: none;
+	color: rgb(1, 59, 131);
+	text-align: center;
+	height: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 25px 10px;
+	-webkit-box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
+	box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
+}
+
+.priem_header:hover {
+	color: rgb(1, 59, 131);
+}
