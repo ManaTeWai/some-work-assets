@@ -6,15 +6,16 @@
 
 .menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
 .menu_inner {
-	padding: 15px 0;
+	padding: 15px 5px;
 	color: white;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -79,11 +80,12 @@
 
 .second_menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style-type: none;
 	text-transform: uppercase;
-	padding: 0;
+	padding: 0px 5px;
 }
 
 .second_menu a {
@@ -204,7 +206,6 @@
 	align-items: center;
 	background-color: transparent;
 	border-radius: 50px;
-	width: 100px;
 	padding: 15px;
 	opacity: 1;
 	transition: all 200ms;

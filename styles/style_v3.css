@@ -6,8 +6,9 @@
 
 .menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -79,8 +80,9 @@
 
 .second_menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style-type: none;
 	text-transform: uppercase;
 	padding: 0;
