@@ -115,18 +115,28 @@ a.bvi-link-shortcode {
 	text-decoration: none;
 	color: rgb(1, 59, 131);
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	height: 100px;
 	font-weight: bold;
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 25px 10px;
-	-webkit-box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
-	-moz-box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
-	box-shadow: 10px 10px 22px 0px rgba(255, 0, 0, 0.75);
+	-webkit-box-shadow: 13px 13px 0px 0px rgba(255, 0, 0, 0.45);
+	-moz-box-shadow: 13px 13px 0px 0px rgba(255, 0, 0, 0.45);
+	box-shadow: 13px 13px 0px 0px rgba(255, 0, 0, 0.45);
+	transition: all 200ms;
 }
 
 .priem_header:hover {
-	color: rgb(1, 59, 131);
+	color: rgb(0, 48, 107);
+	border-color: rgb(0, 48, 107);
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(181, 2, 2, 0.75);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(181, 2, 2, 0.75);
+	box-shadow: 10px 10px 0px 0px rgba(181, 2, 2, 0.75);
+	transition: all 200ms;
 }
 
 .dop-func {

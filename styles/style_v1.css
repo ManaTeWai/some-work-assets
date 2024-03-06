@@ -136,6 +136,10 @@
 	text-decoration: none;
 }
 
+.fuk_item {
+	margin-top: 15px !important;
+}
+
 .law_icon {
 	width: 300px;
 	height: 300px;
