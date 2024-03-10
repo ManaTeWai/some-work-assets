@@ -224,8 +224,29 @@
 	height: 100vh;
 }
 
+.humburger_btns {
+	display: none;
+}
+
+.humburger {
+	border: none;
+	background-color: transparent;
+	color: white;
+	z-index: 100;
+}
+
+.closeIcon {
+	display: none;
+}
+
 @media (max-width: 480px) {
 	.scroll_top {
+		display: none;
+	}
+	.humburger_btns {
+		display: block;
+	}
+	.menu {
 		display: none;
 	}
 }
