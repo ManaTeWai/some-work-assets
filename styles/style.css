@@ -148,3 +148,14 @@ a.bvi-link-shortcode {
 .study {
 	text-align: center;
 }
+
+@media (max-width: 480px) {
+	.logotype {
+		padding: 0;
+		text-align: center;
+	}
+
+	.top img {
+		display: none;
+	}
+}
